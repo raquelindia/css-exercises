@@ -17,11 +17,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
   
 }
-ul, li {
-  flex-direction: column;
-}
+
 a {
   font-size: 22px;
   background: white;
