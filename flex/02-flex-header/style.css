@@ -17,6 +17,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: inline-block;
 }
 
 a {
@@ -29,12 +30,3 @@ a {
   justify-contents: center;
 }
 
-.right-links{
-  
-  display: inline-block;
-}
-
-.left-links {
-  
-  display: inline-block;;
-}
