@@ -20,7 +20,7 @@ ul {
   
 }
 ul, li {
-  display: inline;
+  flex-direction: column;
 }
 a {
   font-size: 22px;
