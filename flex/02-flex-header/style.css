@@ -17,9 +17,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  
+}
+ul > li {
   display: inline-block;
 }
-
 a {
   font-size: 22px;
   background: white;
