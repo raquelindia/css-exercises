@@ -29,7 +29,12 @@ a {
   justify-contents: center;
 }
 
-.right-links.left-links {
-  display: flex;
-  justify-content: space-between;
+.right-links{
+  
+  justify-content: flex-end;
+}
+
+.left-links {
+  
+  justify-content: flex-start;
 }
