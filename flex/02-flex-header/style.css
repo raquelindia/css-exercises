@@ -36,6 +36,7 @@ a {
   text-decoration: none;
   align-items: space-around;
   justify-contents: center;
+  flex-shrink: 1;
 }
 
 .left-links {
