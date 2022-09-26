@@ -2,8 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  border: solid papayawhip 4px;
+  align-items: center;
  justify-content: space-between;
+  padding: 8px;
   
   
 }
@@ -14,8 +15,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  align-items: space-around;
-  border: solid papayawhip 4px;
+  
   
   
   
@@ -27,7 +27,9 @@ ul {
   list-style-type: none;
  display: flex;
   
-  
+  margin: 0;
+  padding: 0px;
+  gap: 8px;
   
   
   
@@ -35,7 +37,8 @@ ul {
 
 li {
  flex: 1 1 auto; 
-  padding: 8px;
+  
+  border: solid papayawhip 8px;
   
 }
 
@@ -50,16 +53,11 @@ a {
   
 }
 
-.left-links {
-
-  justify-content
-  
-}
 
 
-.right-links {
- 
-}
+
+
+
 
 
 
