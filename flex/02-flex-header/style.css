@@ -34,7 +34,7 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  align-items: center;
+  align-items: space-around;
   justify-contents: center;
 }
 
