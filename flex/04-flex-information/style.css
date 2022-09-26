@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 200px;
+  width: 100px;
   height: 100px;
   
 }
@@ -24,6 +24,11 @@ img {
 .contents {
   display: flex;
   justify-content: space-around;
+  
+}
+.sections {
+  
+  width: 200px;
   
 }
 /* do not edit this footer */
