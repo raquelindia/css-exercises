@@ -38,3 +38,16 @@ a {
   justify-contents: center;
 }
 
+.left-links {
+  
+justify-content: flex-start;
+}
+
+
+.right-links {
+  
+  
+  justify-content: flex-end;
+  
+}
+
