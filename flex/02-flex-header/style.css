@@ -2,7 +2,6 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  flex-direction: row;
   align-items: space-between;
   justify-content: center;
 }
@@ -43,14 +42,14 @@ a {
 
 .left-links {
   
-justify-content: flex-start;
+align-self: flex-start;
 }
 
 
 .right-links {
   
   
-  justify-content: flex-end;
+  align-self: flex-end;
   
 }
 
