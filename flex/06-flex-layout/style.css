@@ -1,50 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAYOUT</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div class="header">
-      <ul class="left-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Store</a></li>
-      </ul>
-      <ul class="right-links">
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
-    </div>
-    <div class="content">
-      <div class="image">
-      <img src="./logo.png" alt="Project logo. Represents odin with the project name.">
-      </div>
-      
-      <div class="input">
-        <input type="text">
-      </div>
-      <div class="buttons">
-        <div class="button-one">
-        <button>Do the thing!</button>
-        </div>
-        <div class="button-two">
-        <button>Do the other thing!</button>
-        </div>
-        
-      </div>
-    </div>
-    <div class="footer">
-      <ul class="left-links">
-        <li><a href="#">Advertising</a></li>
-        <li><a href="#">Business</a></li>
-      </ul>
-      <ul class="right-links">
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  
+  
+  
+}
+
+.right-links {
+  
+  
+}
+a {
+  text-decoration: none;
+  color: grey;
+  padding: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+} 
+
+.image {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eeeeee;
+  
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  
+}
