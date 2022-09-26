@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   
+  
  
   
 }
@@ -40,8 +41,8 @@ ul {
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 10px;
-  
+  padding: 0;
+  gap: 16px;
   
   
 }
@@ -53,10 +54,11 @@ a {
   padding: 8px;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
   
 } 
 
@@ -66,18 +68,6 @@ a {
   
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #eeeeee;
-  
-  
-  
-}
-.right-links {
-  
-}
 
 .buttons {
   display: flex;
@@ -91,6 +81,16 @@ footer {
 .footer {
   display: flex;
   margin-top: auto;
+  background-color: #eeeeee;
   
 }
-
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-contents: center;
+  
+  
+  
+}
