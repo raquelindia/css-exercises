@@ -14,24 +14,26 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 .plants {
   display: flex;
-   gap: 8px;
-  padding: 20px;
-  justify-content: center;
-  gap: 240px;
+  justify-content: space-around;
+  gap: 52px;
+  
 }
 
 .text {
-  padding: 20px;
+  padding: 10px;
   padding-top: 0px;
+  
 }
 
 .textdiv {
   display: flex;
   justify-content: center;
-  margin: 50px
+  margin: 50px;
+  gap: 52px;
 }
 
 /* do not edit this footer */
