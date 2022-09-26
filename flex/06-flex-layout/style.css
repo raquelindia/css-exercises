@@ -70,7 +70,7 @@ footer {
   justify-content: space-between;
   padding: 10px;
   background-color: #eeeeee;
-  
+  margin-top: auto;
   
 }
 .right-links {
@@ -84,10 +84,6 @@ footer {
 }
 
 
-
-footer {
-  margin-top: auto;
-}
 
 
 
