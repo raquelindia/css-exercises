@@ -8,9 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   
-  
- 
-  
 }
 
 img {
@@ -41,24 +38,26 @@ ul {
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0;
-  gap: 16px;
+  padding: 10px;
+  
   
   
 }
 
-
+.right-links {
+  
+  
+}
 a {
   text-decoration: none;
   color: grey;
   padding: 8px;
 }
 
-.header,
-.footer {
+.header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 10px;
   
 } 
 
@@ -68,29 +67,32 @@ a {
   
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eeeeee;
+  
+  
+}
+.right-links {
+  
+}
 
 .buttons {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  margin: auto:
-  
   
 }
 
-.footer {
-  display: flex;
-  margin-top: auto;
-  background-color: #eeeeee;
-  
-}
-.content {
-  flex: 1;
+.column-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-contents: center;
-  
-  
-  
+  margin-top: auto;
 }
+
+footer {
+  margin-top: auto;
+}
+
+
