@@ -12,8 +12,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  border-color: papayawhip;
   justify-content: center;
+  align-self: center;
 }
 
 ul {
