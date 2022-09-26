@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  
  
   
 }
@@ -70,7 +71,8 @@ footer {
   justify-content: space-between;
   padding: 10px;
   background-color: #eeeeee;
-  margin-top: auto;
+  
+  
   
 }
 .right-links {
@@ -80,10 +82,15 @@ footer {
 .buttons {
   display: flex;
   justify-content: center;
+  padding: 20px;
+  margin: auto:
+  
   
 }
 
-
-
-
+.footer {
+  display: flex;
+  margin-top: auto;
+  
+}
 
