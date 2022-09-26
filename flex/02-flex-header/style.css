@@ -42,14 +42,14 @@ a {
 }
 
 .left-links {
-  
+  align-items: center;
 align-self: flex-start;
 }
 
 
 .right-links {
   
-  
+  align-items: center;
   align-self: flex-end;
   
 }
