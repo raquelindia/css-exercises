@@ -25,6 +25,8 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -58,9 +60,10 @@ a {
   display: flex;
   justify-content: center;
 }
+
 .footer {
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
   justify-content: space-between;
   padding: 10px;
   
@@ -68,7 +71,3 @@ a {
 }
 
 
-.input-section {
-  display: flex;
-  justify-content: center;
-}
