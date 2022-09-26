@@ -24,6 +24,7 @@ img {
 .contents {
   display: flex;
   justify-content: space-around;
+  gap: 52px;
   
 }
 .sections {
